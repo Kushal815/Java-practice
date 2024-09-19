@@ -1,4 +1,4 @@
-import java.util.*;
+dimport java.util.*;
 class sc{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
