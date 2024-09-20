@@ -1,5 +1,5 @@
-dimport java.util.*;
-class sc{
+import java.util.*;
+class switchcase{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number between 1 to 7 :");
