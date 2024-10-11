@@ -6,7 +6,7 @@ class pattern {
 
 
     
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         // System.out.print("x axis :");
         // int x= sc.nextInt();
 
@@ -40,8 +40,8 @@ class pattern {
 
 
         //Increaasing pattern
-    //     int n = 5;
-    //     // int number = 1;
+        // int n = 5;
+        // int number = 1;
 
 
     //    for(int i=1; i<=n; i++) {
@@ -53,13 +53,44 @@ class pattern {
     //    }
 
 
-        for(int i=1;i<=4;i++){
-            for(int j=1;j<=4;j++){
-                if(j<=4-i)
-                    System.out.print(" ");
-                else System.out.print("*");
-            }
-            System.out.println();
-        }
+
+
+        //Decreasing pattern
+        // for(int i=n; i>=1; i--) {
+        //            for(int j=1; j<=i; j++) {
+        //                System.out.print("#");
+        //             //    number++;
+        //            }
+        //            System.out.println();
+        //        }
+
+
+
+
+    //    //inverted Decreasing pattern
+
+    //     for(int i=1;i<=4;i++){
+    //         for(int j=1;j<=4;j++){
+    //             if(j<=4-i)
+    //                 System.out.print(" ");
+    //             else System.out.print("*");
+    //         }
+    //         System.out.println();
+    //     }
+
+                        // (OR)
+
+        // for(int i=1;i<=n;i++){
+        //     for(int j=1;j<=n-i;j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        
+        
     }
 }
